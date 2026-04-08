@@ -90,6 +90,6 @@
         <OutArgument x:TypeArguments="x:String">[FName]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,167" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;A dummy log just for testing&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,167" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;A dummy zz log just for testing&quot;]" />
   </Sequence>
 </Activity>
