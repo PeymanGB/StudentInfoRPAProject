@@ -90,6 +90,6 @@
         <OutArgument x:TypeArguments="x:String">[FName]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="450,114.5" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;This is your initial: &quot; + String.Join(&quot;&quot;, FName.Split(&quot; &quot;).Select(Function(word) word.Substring(0, 1))) + &quot; from your name: &quot; +FName]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,167" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;A dummy log just for testing&quot;]" />
   </Sequence>
 </Activity>
