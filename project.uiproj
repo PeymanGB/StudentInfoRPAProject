@@ -1,0 +1,6 @@
+{
+  "Name": "StudentInfo PR",
+  "ProjectType": "Process",
+  "Description": "This is a test for Repository in Github",
+  "MainFile": "Main.xaml"
+}
